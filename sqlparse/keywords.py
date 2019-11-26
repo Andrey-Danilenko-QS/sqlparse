@@ -17,6 +17,7 @@ def is_keyword(value):
             or KEYWORDS_ORACLE.get(val)
             or KEYWORDS_PLPGSQL.get(val)
             or KEYWORDS_HQL.get(val)
+            or KEYWORDS_NRQL.get(val)
             or KEYWORDS.get(val, tokens.Name)), value
 
 
@@ -952,4 +953,10 @@ KEYWORDS_HQL = {
     'EXIT': tokens.Keyword,
     'BREAK': tokens.Keyword,
     'LEAVE': tokens.Keyword,
+}
+
+# NRQL keywords
+KEYWORDS_NRQL = {
+    'FACET': tokens.Keyword,
+    'CASES': tokens.Keyword,
 }
