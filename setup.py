@@ -101,6 +101,7 @@ setup(
         'Topic :: Database',
         'Topic :: Software Development',
     ],
+    package_dir={'': 'sqlparse'},
     packages=find_packages(exclude=('tests',)),
     entry_points={
         'console_scripts': [
