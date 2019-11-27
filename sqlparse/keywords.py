@@ -959,4 +959,9 @@ KEYWORDS_HQL = {
 KEYWORDS_NRQL = {
     'FACET': tokens.Keyword,
     'CASES': tokens.Keyword,
+    'SINCE': tokens.Keyword,
+    'TIMEZONE': tokens.Keyword,
+    'COMPARE': tokens.Keyword,
+    'TIMESERIES': tokens.Keyword,
+    'EXTRAPOLATE': tokens. Keyword
 }
