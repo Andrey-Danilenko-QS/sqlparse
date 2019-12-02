@@ -958,17 +958,17 @@ SQL_REGEX = [(re.compile(rx, FLAGS).match, tt) for rx, tt in SQL_REGEX['root']]
 
 # NRQL keywords ONLY
 KEYWORDS_NRQL = {
-    'SELECT': tokens.Keyword,
-    'FROM': tokens.Keyword,
-    'WHERE': tokens.Keyword,
-    'FACET': tokens.Keyword,
-    'CASES': tokens.Keyword,
-    'LIMIT': tokens.Keyword,
-    'SINCE': tokens.Keyword,
-    'UNTIL': tokens.Keyword,
-    'WITH': tokens.Keyword,
-    'TIMEZONE': tokens.Keyword,
-    'COMPARE': tokens.Keyword,
-    'TIMESERIES': tokens.Keyword,
-    'EXTRAPOLATE': tokens. Keyword
+    'SELECT': tokens.Keyword.NRQL,
+    'FROM': tokens.Keyword.NRQL,
+    'WHERE': tokens.Keyword.NRQL,
+    'FACET': tokens.Keyword.NRQL,
+    'CASES': tokens.Keyword.NRQL,
+    'LIMIT': tokens.Keyword.NRQL,
+    'SINCE': tokens.Keyword.NRQL,
+    'UNTIL': tokens.Keyword.NRQL,
+    'WITH': tokens.Keyword.NRQL,
+    'TIMEZONE': tokens.Keyword.NRQL,
+    'COMPARE': tokens.Keyword.NRQL,
+    'TIMESERIES': tokens.Keyword.NRQL,
+    'EXTRAPOLATE': tokens. Keyword.NRQL
 }
