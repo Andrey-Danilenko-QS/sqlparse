@@ -67,3 +67,4 @@ Token.Number = Number
 DML = Keyword.DML
 DDL = Keyword.DDL
 CTE = Keyword.CTE
+NRQL = Keyword.NRQL
